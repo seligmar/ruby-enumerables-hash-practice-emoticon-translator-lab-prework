@@ -24,11 +24,12 @@ end
 def get_japanese_emoticon(hash, emoticon)
     answer = ""
     hashes = load_library(hash)
+      if hashes["get_emoticon"].keys.include?(emoticon)
        hashes["get_emoticon"].select do |k,v| 
             if k == emoticon 
               answer = v 
-  end 
-#else 
+        end 
+    else 
   end 
 #answer
 end
