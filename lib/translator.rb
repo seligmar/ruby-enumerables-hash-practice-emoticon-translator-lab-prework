@@ -47,6 +47,5 @@ def get_english_meaning(hash, emoticon) #get_english_meaning returns the English
   end
   end 
 end
-    hashes["get_meaning"].values.include?(emoticon)
 end
 
