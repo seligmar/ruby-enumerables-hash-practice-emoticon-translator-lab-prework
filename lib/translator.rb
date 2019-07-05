@@ -38,6 +38,7 @@ end
 def get_english_meaning(hash, emoticon)
     answer = ""
     hashes = load_library(hash)
+    binding.pry
   
 end
 
