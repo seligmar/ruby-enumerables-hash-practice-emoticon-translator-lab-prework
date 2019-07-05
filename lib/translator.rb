@@ -36,7 +36,8 @@ def get_japanese_emoticon(hash, emoticon)
 end
 
 def get_english_meaning(hash, emoticon)
-  load_library(hash)
+    answer = ""
+    hashes = load_library(hash)
   
 end
 
