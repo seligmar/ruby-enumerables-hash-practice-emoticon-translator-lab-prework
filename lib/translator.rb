@@ -38,7 +38,7 @@ end
 def get_english_meaning(hash, emoticon) #get_english_meaning returns the English meaning of the Japanese emoticon
     answer = ""
     hashes = load_library(hash)
-    binding.pry
+   # binding.pry
       if !(hashes["get_meaning"].keys.include?(emoticon))
             "Sorry, that emoticon was not found"
         else hashes["get_meaning"].select do |k,v| 
