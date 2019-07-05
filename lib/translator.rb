@@ -37,5 +37,6 @@ end
 
 def get_english_meaning(hash, emoticon)
   load_library(hash)
+  
 end
 
