@@ -29,8 +29,9 @@ def get_japanese_emoticon(hash, emoticon)
          else hashes["get_emoticon"].select do |k,v| 
             if k == emoticon 
               answer = v 
+              return answer
         end 
-        answer
+       # answer
   end 
 #answer
 end
