@@ -45,7 +45,7 @@ def get_english_meaning(hash, emoticon) #get_english_meaning returns the English
             if k == emoticon 
               answer = v 
               return answer
-        end 
+       # end 
   end
   end 
 end
