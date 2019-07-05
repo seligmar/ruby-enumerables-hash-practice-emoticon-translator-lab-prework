@@ -31,10 +31,8 @@ def get_japanese_emoticon(hash, emoticon)
               answer = v 
               return answer
         end 
-       # answer
   end
   end 
-#answer
 end
 
 def get_english_meaning(hash, emoticon)
