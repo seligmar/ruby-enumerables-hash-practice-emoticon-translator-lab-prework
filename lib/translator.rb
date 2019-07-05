@@ -25,7 +25,7 @@ def get_japanese_emoticon(hash, emoticon)
     answer = ""
     hashes = load_library(hash)
       if !(hashes["get_emoticon"].keys.include?(emoticon))
-            "Im sorry that emoticon is not known"
+            "Sorry, that emoticon was not found"
          else hashes["get_emoticon"].select do |k,v| 
             if k == emoticon 
               answer = v 
