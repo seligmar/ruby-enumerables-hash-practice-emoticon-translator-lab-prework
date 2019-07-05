@@ -39,6 +39,8 @@ def get_english_meaning(hash, emoticon) #get_english_meaning returns the English
     answer = ""
     hashes = load_library(hash)
     binding.pry
-  
+      if !(hashes["get_meaning"].keys.include?(emoticon))
+            "Sorry, that emoticon was not found"
+    hashes["get_meaning"].values.include?(emoticon)
 end
 
