@@ -35,7 +35,7 @@ def get_japanese_emoticon(hash, emoticon)
   end 
 end
 
-def get_english_meaning(hash, emoticon)
+def get_english_meaning(hash, emoticon) #get_english_meaning returns the English meaning of the Japanese emoticon
     answer = ""
     hashes = load_library(hash)
     binding.pry
