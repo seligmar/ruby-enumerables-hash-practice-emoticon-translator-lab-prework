@@ -32,7 +32,8 @@ def get_japanese_emoticon(hash, emoticon)
               return answer
         end 
        # answer
-  #end 
+  end
+  end 
 #answer
 end
 
