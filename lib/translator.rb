@@ -24,17 +24,13 @@ end
 def get_japanese_emoticon(hash, emoticon)
     answer = ""
     hashes = load_library(hash)
-  #  binding.pry
-  #  if hashes["get_emoticon"].keys.include?(emoticon) 
        hashes["get_emoticon"].select do |k,v| 
             if k == emoticon 
-            answer = v 
-      #binding.pry
-      #[hashes["get_emoticon"]][emoticon].values 
-    #binding.pry
+              answer = v 
+ # end 
+#else 
   end 
-  end 
-answer
+#answer
 end
 
 def get_english_meaning(hash, emoticon)
